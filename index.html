@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="src/styles/header.css" />
     <link rel="stylesheet" href="src/styles/home.css" />
     <link rel="stylesheet" href="src/styles/menu.css" />
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -37,7 +39,7 @@
             <a href="#Menu">Cardápio</a>
           </li>
           <li class="nav-item">
-            <a href="#testmonials">Avaliações</a>
+            <a href="#testimonials">Avaliações</a>
           </li>
         </ul>
         <button class="btn-default">Peça aqui</button>
@@ -54,7 +56,7 @@
             <a href="#Menu">Cardápio</a>
           </li>
           <li class="nav-item">
-            <a href="#testmonials">Avaliações</a>
+            <a href="#testimonials">Avaliações</a>
           </li>
         </ul>
         <button class="btn-default">Peça aqui</button>
@@ -68,15 +70,17 @@
             O sabor vai até
             <span>você</span>
           </h1>
-          <p id="description">
+          <p class="description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, incidunt dolorum aut deleniti iste nisi architecto
             sapiente cupiditate quas vel eveniet dolore aliquam ex esse ea nemo
             error, a laborum.
           </p>
+
           <div id="cta_buttons">
             <a href="#" class="btn-default"> ver cardápio </a>
-            <a href="tell:+5561999824044" id="phone_button">
+
+            <a href="tel:+5561999824044" id="phone_button">
               <button class="btn-default">
                 <i class="fa-solid fa-phone"></i>
               </button>
@@ -195,10 +199,10 @@
           </div>
         </div>
       </section>
-      <section id="testmonials">
-        <img src="src/images/chef.png" id="testmonials_chef" alt="" />
+      <section id="testimonials">
+        <img src="src/images/chef.png" id="testimonials_chef" alt="" />
 
-        <div id="testmonials_content">
+        <div id="testimonials_content">
           <h2 class="section-title">Depoimentos</h2>
           <h3 class="section-subtitle">O que os clientes fala sobre nós</h3>
           <div id="feedbacks">
@@ -224,6 +228,31 @@
               </div>
             </div>
           </div>
+          <div id="feedbacks">
+            <div class="feedback">
+              <img src="src/images/avatar.png" class="feedback-avatar" />
+              <div class="feedback-content">
+                <p>
+                  Fulana de Tal
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate nihil delectus veritatis eveniet eaque nostrum
+                  repudiandae, adipisci voluptate earum fugiat! Voluptatum totam
+                  aliquid inventore excepturi officiis quos in temporibus iure?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-default">Ver mais avaliações</button>
         </div>
       </section>
     </main>

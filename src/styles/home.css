@@ -17,7 +17,10 @@
 #cta .title span {
   color: #e9a209;
 }
-#ct #cta_buttons {
+#cta .description{
+  font-size: 1.2rem;
+}
+#cta_buttons {
   display: flex;
   gap: 24px;
 }
@@ -37,6 +40,7 @@
 }
 #phone_button button {
   box-shadow: none;
+  
 }
 #banner {
   display: flex;
